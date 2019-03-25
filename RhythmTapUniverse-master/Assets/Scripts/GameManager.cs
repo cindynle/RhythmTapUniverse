@@ -56,12 +56,12 @@ public class GameManager : MonoBehaviour
             timer += Time.deltaTime;
         }
 
-        if (failTracker >= 5)
+        /*if (failTracker >= 5)
         {
           
             theBS.failed = true;
             theMusic.pitch = 0.75f;
-            failText.SetActive(true);
+            //failText.SetActive(true);
             StartCoroutine("waitTwo");
             startPlaying = false;
         }
@@ -71,7 +71,7 @@ public class GameManager : MonoBehaviour
             winText.SetActive(true);
             winAudio.Play();
             startPlaying = false;
-        }
+        }*/
 
     }
     public void NoteHit()
