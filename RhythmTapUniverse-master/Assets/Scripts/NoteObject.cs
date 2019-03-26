@@ -7,6 +7,7 @@ public class NoteObject : MonoBehaviour
 
     public bool canBePressed;
     public KeyCode keyToPress;
+    public KeyCode keyToPress2;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class NoteObject : MonoBehaviour
     {
         if (canBePressed) 
         {
-            if (Input.GetKeyDown(keyToPress))
+            if ((Input.GetKeyDown(keyToPress)) || (Input.GetKeyDown(keyToPress2)))
             {
                 gameObject.SetActive(false);
                 GameManager.instance.NoteHit();

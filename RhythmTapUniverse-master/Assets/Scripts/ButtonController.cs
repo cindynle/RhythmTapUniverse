@@ -9,6 +9,7 @@ public class ButtonController : MonoBehaviour
     public Material defaultImage;
     public Material pressedImage;
     public KeyCode keyToPress;
+    public KeyCode keyToPress2;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,10 +19,10 @@ public class ButtonController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(keyToPress))
+        if ((Input.GetKeyDown(keyToPress))||(Input.GetKeyDown(keyToPress2)))
         { theMR.material = pressedImage; }
 
-        if (Input.GetKeyUp(keyToPress))
+        if ((Input.GetKeyUp(keyToPress)) || (Input.GetKeyUp(keyToPress2)))
         { theMR.material = defaultImage; }
     }
 }
