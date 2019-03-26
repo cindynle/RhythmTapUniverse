@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
 
     public AudioSource theMusic;
+    public AudioSource distMusic;
     public bool startPlaying;
 
     public BeatScroller theBS;
@@ -45,6 +46,7 @@ public class GameManager : MonoBehaviour
             startPlaying = true;
             theBS.hasStarted = true;
             theMusic.Play();
+            distMusic.Play();
                 //startText.SetActive(false);
 
 
@@ -80,6 +82,7 @@ public class GameManager : MonoBehaviour
 
             currentScore += scorePerNote * currentMulti;
             scoreText.text = "Score: " + currentScore;
+            distMusic.volume = 0;
         }
 
 
@@ -91,9 +94,7 @@ public class GameManager : MonoBehaviour
         //multiTracker = 0;
         //multiText.text = "Combo: x" + currentMulti;
         failTracker++;
-       
-
-
+        distMusic.volume = 0.75f;
     }
 
     IEnumerator waitTwo()

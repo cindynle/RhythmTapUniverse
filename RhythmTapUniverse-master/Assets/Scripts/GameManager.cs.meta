@@ -3,7 +3,18 @@ guid: 4ad17e401204e4c0eace586c8b144f5a
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - theMusic: {fileID: 5486566454486425483, guid: d0016d598bed99f4b8f859ff978defad,
+      type: 3}
+  - distMusic: {fileID: 4912955476634690323, guid: 8df83f7244beadb4ab6bc4c3f606b4fe,
+      type: 3}
+  - theBS: {instanceID: 0}
+  - scoreText: {instanceID: 0}
+  - multiText: {instanceID: 0}
+  - failText: {instanceID: 0}
+  - winText: {instanceID: 0}
+  - startText: {instanceID: 0}
+  - winAudio: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
