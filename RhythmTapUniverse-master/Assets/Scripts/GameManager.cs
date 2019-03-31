@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public AudioSource distMusic;
     public AudioSource NoteMiss;
     public AudioSource Gomusic;
+    //public GameObject winText;
+    //public AudioSource winAudio;
     public bool startPlaying;
 
     public BeatScroller theBS;
@@ -18,17 +20,15 @@ public class GameManager : MonoBehaviour
     public int currentScore;
     public int scorePerNote = 100;
     public int currentMulti;
-    public int multiTracker;
-    public int failTracker=0;
+    public int combo = 0;
+    public int failTracker;
     public int[] multiThresholds;
+    public int multiTracker;
     public Text scoreText;
+    public Text comboText;
     public Text multiText;
-    public GameObject failText;
-    public GameObject winText;
-    public GameObject startText;
-    public AudioSource winAudio;
     public float timer;
-
+    private IEnumerator coroutine;
 
 
     // Start is called before the first frame update
@@ -36,7 +36,12 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
        scoreText.text = "Score: 0";
+
         currentMulti = 1;
+        multiText.text = "Multiplier: X" + currentMulti;
+        failTracker = 0;
+        coroutine = waitTwo();
+
     }
 
     // Update is called once per frame
@@ -49,16 +54,16 @@ public class GameManager : MonoBehaviour
             theBS.hasStarted = true;
             theMusic.Play();
             distMusic.Play();
-                //startText.SetActive(false);
-
-
             }
         }
 
-       if (startPlaying)
+       /*if (failTracker == 0)
         {
-            timer += Time.deltaTime;
-        }
+            theBS.failed = true;
+
+            StartCoroutine(coroutine);
+         
+        }*/
 
         if (failTracker >= 5)
         {
@@ -78,10 +83,18 @@ public class GameManager : MonoBehaviour
 
        if ((failTracker < 5) && (timer >= 45))
         {
-            winText.SetActive(true);
-            winAudio.Play();
+            //winText.SetActive(true);
+            //winAudio.Play();
             startPlaying = false;
         }
+        if (startPlaying)
+        {
+            timer += Time.deltaTime;
+        }
+
+        
+
+      
 
     }
     public void NoteHit()
@@ -89,8 +102,26 @@ public class GameManager : MonoBehaviour
         Debug.Log("Hit On Time");
         
             currentScore += scorePerNote * currentMulti;
+
+            combo++;
+            multiTracker++;
+        if (currentMulti - 1 < multiThresholds.Length)
+        {
+
+            if (multiThresholds[currentMulti - 1] <= multiTracker)
+            {
+                multiTracker = 0;
+                currentMulti++;
+
+            }
+        }
+        currentScore += scorePerNote * currentMulti;
             scoreText.text = "Score: " + currentScore;
-            distMusic.volume = 0;
+            comboText.text = "Combo: " + combo;
+            multiText.text = "Multiplier: X" + currentMulti;
+
+        distMusic.volume = 0;
+            
         }
 
 
@@ -100,10 +131,15 @@ public class GameManager : MonoBehaviour
         Debug.Log("Missed Note");
         NoteMiss.Play();
         currentMulti = 1;
-        //multiTracker = 0;
-        //multiText.text = "Combo: x" + currentMulti;
-        failTracker++;
+        multiTracker = 0;
+
+        combo = 0;
+        failTracker--;
         distMusic.volume = 0.75f;
+        comboText.text = "Combo: " + combo;
+        multiText.text = "Multiplier: X" + currentMulti;
+
+
     }
 
     IEnumerator waitTwo()
