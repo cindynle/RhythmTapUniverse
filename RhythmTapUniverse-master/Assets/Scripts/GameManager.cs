@@ -9,6 +9,8 @@ public class GameManager : MonoBehaviour
 
     public AudioSource theMusic;
     public AudioSource distMusic;
+    public AudioSource NoteMiss;
+    public AudioSource Gomusic;
     public bool startPlaying;
 
     public BeatScroller theBS;
@@ -58,11 +60,17 @@ public class GameManager : MonoBehaviour
             timer += Time.deltaTime;
         }
 
-        /*if (failTracker >= 5)
+        if (failTracker >= 5)
         {
           
             theBS.failed = true;
             theMusic.pitch = 0.75f;
+            theMusic.volume = 0.35f;
+            distMusic.volume = 0.25f;
+            if (Gomusic.isPlaying == false)
+            {
+                Gomusic.Play();
+            }
             //failText.SetActive(true);
             StartCoroutine("waitTwo");
             startPlaying = false;
@@ -73,13 +81,13 @@ public class GameManager : MonoBehaviour
             winText.SetActive(true);
             winAudio.Play();
             startPlaying = false;
-        }*/
+        }
 
     }
     public void NoteHit()
     {
         Debug.Log("Hit On Time");
-
+        
             currentScore += scorePerNote * currentMulti;
             scoreText.text = "Score: " + currentScore;
             distMusic.volume = 0;
@@ -90,6 +98,7 @@ public class GameManager : MonoBehaviour
     {
 
         Debug.Log("Missed Note");
+        NoteMiss.Play();
         currentMulti = 1;
         //multiTracker = 0;
         //multiText.text = "Combo: x" + currentMulti;
@@ -99,8 +108,8 @@ public class GameManager : MonoBehaviour
 
     IEnumerator waitTwo()
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(0.85f);
         theMusic.Stop();
-
+        distMusic.Stop();
     }
 }

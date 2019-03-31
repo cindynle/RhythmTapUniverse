@@ -28,7 +28,7 @@ public class BeatScroller : MonoBehaviour
         else if (hasStarted)
 
         {
-            transform.position -= new Vector3(0f, .0073f, beatTempo * Time.deltaTime);
+            transform.position -= new Vector3(0f, .008f, beatTempo * Time.deltaTime);
         } 
     
         if (failed)
