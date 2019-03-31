@@ -6,7 +6,7 @@ public class BeatScroller : MonoBehaviour
 {
 
     public float beatTempo;
-    public bool failed;
+    public bool failed=false;
 
     public bool hasStarted;
     // Start is called before the first frame update
