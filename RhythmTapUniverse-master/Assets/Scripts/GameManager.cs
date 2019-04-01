@@ -134,7 +134,7 @@ public class GameManager : MonoBehaviour
         multiTracker = 0;
 
         combo = 0;
-        failTracker--;
+        failTracker++;
         distMusic.volume = 0.75f;
         comboText.text = "Combo: " + combo;
         multiText.text = "Multiplier: X" + currentMulti;

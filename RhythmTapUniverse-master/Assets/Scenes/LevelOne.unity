@@ -15643,7 +15643,7 @@ MonoBehaviour:
   multiThresholds: 040000000c0000001c000000
   multiTracker: 0
   scoreText: {fileID: 262131038}
-  comboText: {fileID: 0}
+  comboText: {fileID: 1067376597}
   multiText: {fileID: 1600807930}
   timer: 0
 --- !u!4 &1707787488
@@ -16868,7 +16868,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5b637f69dabb773449aa7bdeb98fd5d7, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.85
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
