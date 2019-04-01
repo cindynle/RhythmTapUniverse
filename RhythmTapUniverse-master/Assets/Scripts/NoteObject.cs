@@ -26,6 +26,11 @@ public class NoteObject : MonoBehaviour
 
             }
         }
+
+        if(GameManager.Win == true)
+        {
+            gameObject.SetActive(false);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

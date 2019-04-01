@@ -9,5 +9,7 @@ public class LoadScene : MonoBehaviour {
  public void LoadSceneOnClick(int level)
       { 
          SceneManager.LoadScene(level);
+        PauseButton.GO = false;
+        GameManager.Win = false;
        }
 	}

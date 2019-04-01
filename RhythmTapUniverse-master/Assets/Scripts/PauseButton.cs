@@ -8,8 +8,11 @@ public class PauseButton : MonoBehaviour
     public AudioSource audio;
     public AudioSource audio2;
     public AudioSource audio3;
+    public GameObject darkscreen;
 
-    public bool paused;
+    static public bool paused;
+    static public bool GO = false;
+
     void Start()
     {
         paused = false;
@@ -26,22 +29,23 @@ public class PauseButton : MonoBehaviour
     {
         paused = !paused;
     
-        if (paused)
+        if (paused && !GO && !GameManager.Win)
         {
             Time.timeScale = 0;
             audio.Pause();
             audio2.Pause();
-            audio3.Pause();
+            //audio3.Pause();
+            darkscreen.SetActive(true);
 
 
         }
-        else if (!paused)
+        else if (!paused && !GO && !GameManager.Win)
         {
             Time.timeScale = 1;
-        audio.Play();
+            audio.Play();
             audio2.Play();
-            audio3.Play();
-
+            //audio3.Play();
+            darkscreen.SetActive(false);
         }
     }
 }

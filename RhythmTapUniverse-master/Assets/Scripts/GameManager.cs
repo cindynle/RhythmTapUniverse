@@ -16,6 +16,7 @@ public class GameManager : MonoBehaviour
     public GameObject missedNote;
     public GameObject failText;
     public bool startPlaying;
+    static public bool Win = false;
 
     public BeatScroller theBS;
     public static GameManager instance;
@@ -71,6 +72,7 @@ public class GameManager : MonoBehaviour
         {
           
             theBS.failed = true;
+            PauseButton.GO = true;
             theMusic.pitch = 0.75f;
             theMusic.volume = 0.35f;
             distMusic.volume = 0.25f;
@@ -85,9 +87,11 @@ public class GameManager : MonoBehaviour
 
        if ((failTracker < 10) && (timer >= 45))
         {
+            Win = true;
             winText.SetActive(true);
             //winAudio.Play();
-            startPlaying = false;
+            theMusic.Stop();
+            distMusic.Stop();
         }
         if (startPlaying)
         {
