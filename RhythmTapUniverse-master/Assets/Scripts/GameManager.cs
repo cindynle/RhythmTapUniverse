@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
             PauseButton.GO = true;
             theMusic.pitch = 0.75f;
             theMusic.volume = 0.35f;
-            distMusic.volume = 0.25f;
+            distMusic.volume = 0.35f;
             if (Gomusic.isPlaying == false)
             {
                 Gomusic.Play();
