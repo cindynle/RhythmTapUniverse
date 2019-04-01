@@ -6,13 +6,15 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-
+  
     public AudioSource theMusic;
     public AudioSource distMusic;
     public AudioSource NoteMiss;
     public AudioSource Gomusic;
-    //public GameObject winText;
+    public GameObject winText;
     //public AudioSource winAudio;
+    public GameObject missedNote;
+    public GameObject failText;
     public bool startPlaying;
 
     public BeatScroller theBS;
@@ -65,7 +67,7 @@ public class GameManager : MonoBehaviour
          
         }*/
 
-        if (failTracker >= 5)
+        if (failTracker >= 10)
         {
           
             theBS.failed = true;
@@ -76,14 +78,14 @@ public class GameManager : MonoBehaviour
             {
                 Gomusic.Play();
             }
-            //failText.SetActive(true);
+            failText.SetActive(true);
             StartCoroutine("waitTwo");
             startPlaying = false;
         }
 
-       if ((failTracker < 5) && (timer >= 45))
+       if ((failTracker < 10) && (timer >= 45))
         {
-            //winText.SetActive(true);
+            winText.SetActive(true);
             //winAudio.Play();
             startPlaying = false;
         }
@@ -100,8 +102,9 @@ public class GameManager : MonoBehaviour
     public void NoteHit()
     {
         Debug.Log("Hit On Time");
-        
-            currentScore += scorePerNote * currentMulti;
+        missedNote.SetActive(false);
+
+        currentScore += scorePerNote * currentMulti;
 
             combo++;
             multiTracker++;
@@ -133,6 +136,7 @@ public class GameManager : MonoBehaviour
         currentMulti = 1;
         multiTracker = 0;
 
+        missedNote.SetActive(true);
         combo = 0;
         failTracker++;
         distMusic.volume = 0.75f;
