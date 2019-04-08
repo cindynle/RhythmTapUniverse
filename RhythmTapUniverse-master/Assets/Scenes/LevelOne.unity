@@ -24239,6 +24239,11 @@ PrefabInstance:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4912955476634690323, guid: 8df83f7244beadb4ab6bc4c3f606b4fe,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 59802b204dee64345b3e90ce50511fa8, type: 3}
     - target: {fileID: 4912955476634690322, guid: 8df83f7244beadb4ab6bc4c3f606b4fe,
         type: 3}
       propertyPath: m_Name
@@ -24308,6 +24313,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5486566454486425483, guid: d0016d598bed99f4b8f859ff978defad,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 60bd88b3fbcf24a7dba456e9f5e7bc10, type: 3}
     - target: {fileID: 5486566454486425204, guid: d0016d598bed99f4b8f859ff978defad,
         type: 3}
       propertyPath: m_Name
