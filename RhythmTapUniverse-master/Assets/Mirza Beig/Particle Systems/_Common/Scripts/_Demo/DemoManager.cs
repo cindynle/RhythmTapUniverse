@@ -23,7 +23,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
 
-            public class DemoManager : MonoBehaviour
+            public class notDemoManager : MonoBehaviour
             {
                 // =================================	
                 // Nested classes and structures.

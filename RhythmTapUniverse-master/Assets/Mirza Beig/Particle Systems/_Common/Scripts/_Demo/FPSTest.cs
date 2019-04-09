@@ -22,7 +22,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
             
-            public class FPSTest : MonoBehaviour
+            public class notFPSTest : MonoBehaviour
             {
                 // =================================	
                 // Nested classes and structures.

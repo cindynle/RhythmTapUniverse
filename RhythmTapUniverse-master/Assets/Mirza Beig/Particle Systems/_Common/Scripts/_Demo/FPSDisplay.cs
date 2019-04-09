@@ -23,7 +23,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
             
-            public class FPSDisplay : MonoBehaviour
+            public class notFPSDisplay : MonoBehaviour
             {
                 // =================================	
                 // Nested classes and structures.

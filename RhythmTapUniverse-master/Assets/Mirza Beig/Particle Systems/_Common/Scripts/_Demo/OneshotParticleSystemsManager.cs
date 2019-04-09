@@ -25,7 +25,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
 
-            public class OneshotParticleSystemsManager : ParticleManager
+            public class notOneshotParticleSystemsManager : ParticleManager
             {
                 // =================================	
                 // Nested classes and structures.
