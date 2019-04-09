@@ -25,7 +25,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
 
-            public class ParticleManager : MonoBehaviour
+            public class notParticleManager : MonoBehaviour
             {
                 // =================================	
                 // Nested classes and structures.

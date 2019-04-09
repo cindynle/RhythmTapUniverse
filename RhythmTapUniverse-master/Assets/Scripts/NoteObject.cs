@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class NoteObject : MonoBehaviour
 {
+    public ParticleSystem HitParticleR;
+    public ParticleSystem HitParticleG;
+    public ParticleSystem HitParticleB;
+    public ParticleSystem HitParticleY;
 
     public bool canBePressed;
     public KeyCode keyToPress;
@@ -21,6 +25,22 @@ public class NoteObject : MonoBehaviour
         {
             if ((Input.GetKeyDown(keyToPress)) || (Input.GetKeyDown(keyToPress2)))
             {
+                if (this.name.Substring(0,1) == "L" )
+                {
+                    HitParticleR.Play();
+                }else if (this.name.Substring(0, 1) == "U")
+                {
+                    HitParticleG.Play();
+                }
+                else if (this.name.Substring(0, 1) == "D")
+                {
+                    HitParticleB.Play();
+                }
+                else if (this.name.Substring(0, 1) == "R")
+                {
+                    HitParticleY.Play();
+                }
+
                 gameObject.SetActive(false);
                 GameManager.instance.NoteHit();
 

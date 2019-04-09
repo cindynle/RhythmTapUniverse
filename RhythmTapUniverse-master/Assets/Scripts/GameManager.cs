@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-  
+    public Image Instructions;
     public AudioSource theMusic;
     public AudioSource distMusic;
     public AudioSource NoteMiss;
@@ -17,6 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject failText;
     public bool startPlaying;
     static public bool Win = false;
+    static public bool Hit = false;
 
     public BeatScroller theBS;
     public static GameManager instance;
@@ -37,6 +38,8 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 0;
+
         instance = this;
        scoreText.text = "Score: 0";
 
@@ -50,7 +53,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(!startPlaying)
+        if(!startPlaying)
         {
             if (Input.anyKeyDown) { 
             startPlaying = true;
@@ -107,6 +110,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Hit On Time");
         missedNote.SetActive(false);
+        Hit = true;
+        StartCoroutine(HitTimer());
 
         currentScore += scorePerNote * currentMulti;
 
@@ -141,6 +146,7 @@ public class GameManager : MonoBehaviour
         multiTracker = 0;
 
         missedNote.SetActive(true);
+        Hit = false;
         combo = 0;
         failTracker++;
         distMusic.volume = 0.75f;
@@ -150,10 +156,21 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public void StartGame()
+    {
+        Time.timeScale = 1;
+    }
+
     IEnumerator waitTwo()
     {
         yield return new WaitForSeconds(0.85f);
         theMusic.Stop();
         distMusic.Stop();
+    }
+
+    IEnumerator HitTimer()
+    {
+        yield return new WaitForSeconds(0.2f);
+        Hit = false;
     }
 }

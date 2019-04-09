@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,6 +175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -299,6 +303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -360,6 +368,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22990132}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &32950917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 856057511}
+    m_Modifications:
+    - target: {fileID: 5897269656108202321, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_Name
+      value: HitParticleG
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1618bf2a72cea414fb1cfe5ed1c01e52, type: 3}
 --- !u!1 &50394667
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,6 +500,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 100
@@ -547,6 +628,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -671,6 +756,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -874,6 +963,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -998,6 +1091,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -1199,6 +1296,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -1323,6 +1424,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -1447,6 +1552,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -1571,6 +1680,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -1695,6 +1808,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -1819,6 +1936,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -2070,6 +2191,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -2321,6 +2446,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -2521,6 +2650,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -2661,6 +2794,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42dcfa9d259525a499a12297a5bbb34d, type: 3}
+--- !u!4 &196097732 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6295473701009954851, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+    type: 3}
+  m_PrefabInstance: {fileID: 32950917}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &196097733 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2513172870917167696, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+    type: 3}
+  m_PrefabInstance: {fileID: 32950917}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &209041005
 GameObject:
   m_ObjectHideFlags: 0
@@ -2724,6 +2869,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -2848,6 +2997,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -2972,6 +3125,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -3096,6 +3253,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -3220,6 +3381,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -3344,6 +3509,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -3405,6 +3574,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 250447137}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &254233456 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+    type: 3}
+  m_PrefabInstance: {fileID: 1013241960}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &259579648
 GameObject:
   m_ObjectHideFlags: 0
@@ -3468,6 +3643,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -3592,6 +3771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -3716,6 +3899,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -3840,6 +4027,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -3964,6 +4155,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -4025,6 +4220,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 320290674}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &331280331 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+    type: 3}
+  m_PrefabInstance: {fileID: 451547124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &331280332 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 762571384203213457, guid: 214167675eb2c3044b35e96323cc7234,
+    type: 3}
+  m_PrefabInstance: {fileID: 451547124}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &343440463
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,6 +4295,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -4212,6 +4423,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -4415,6 +4630,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -4539,6 +4758,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -4663,6 +4886,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -4929,6 +5156,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -5132,6 +5363,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -5290,6 +5525,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -5414,6 +5653,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -5538,6 +5781,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -5662,6 +5909,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -5786,6 +6037,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -5847,6 +6102,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449445650}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &451547124
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 954435649}
+    m_Modifications:
+    - target: {fileID: 8764823232636328336, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_Name
+      value: HitParticleB
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07236107
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9163598405646612706, guid: 214167675eb2c3044b35e96323cc7234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 214167675eb2c3044b35e96323cc7234, type: 3}
 --- !u!1 &456129868
 GameObject:
   m_ObjectHideFlags: 0
@@ -5910,6 +6234,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -6111,6 +6439,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -6235,6 +6567,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -6359,6 +6695,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -6483,6 +6823,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -6607,6 +6951,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -6731,6 +7079,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -6855,6 +7207,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -6979,6 +7335,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -7103,6 +7463,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -7233,6 +7597,100 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &570201234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 570201235}
+  - component: {fileID: 570201238}
+  - component: {fileID: 570201237}
+  - component: {fileID: 570201236}
+  m_Layer: 0
+  m_Name: NoteLineR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &570201235
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570201234}
+  m_LocalRotation: {x: 0.6085322, y: -0, z: -0, w: 0.7935292}
+  m_LocalPosition: {x: -2.03, y: -1.05, z: 4.03}
+  m_LocalScale: {x: 0.44874, y: 16.084637, z: 0.2280676}
+  m_Children:
+  - {fileID: 1429339410}
+  - {fileID: 1051217384}
+  m_Father: {fileID: 615373353}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 74.967, y: 0, z: 0}
+--- !u!64 &570201236
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570201234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &570201237
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570201234}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 29dbdb47225168141b92f7b8df8fa663, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &570201238
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570201234}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &575438466
 GameObject:
   m_ObjectHideFlags: 0
@@ -7376,6 +7834,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -12225,6 +12687,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -12349,6 +12815,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -12489,6 +12959,40 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 614620248}
   m_CullTransparentMesh: 0
+--- !u!1 &615373352
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615373353}
+  m_Layer: 0
+  m_Name: NoteLines
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615373353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615373352}
+  m_LocalRotation: {x: 0.03127101, y: -0, z: -0, w: 0.99951094}
+  m_LocalPosition: {x: 0.9677435, y: 2.66, z: -1.52}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 570201235}
+  - {fileID: 856057511}
+  - {fileID: 954435649}
+  - {fileID: 1857782564}
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 3.584, y: 0, z: 0}
 --- !u!1 &619844605
 GameObject:
   m_ObjectHideFlags: 0
@@ -12552,6 +13056,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -12676,6 +13184,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -12800,6 +13312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -13019,6 +13535,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -13143,6 +13663,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -13267,6 +13791,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -13391,6 +13919,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -13515,6 +14047,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -13639,6 +14175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -13763,6 +14303,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -14065,6 +14609,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -14189,6 +14737,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -14472,6 +15024,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -14596,6 +15152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -14720,6 +15280,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -14844,6 +15408,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -14968,6 +15536,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -15092,6 +15664,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -15153,6 +15729,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829660290}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &834942485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+    type: 3}
+  m_PrefabInstance: {fileID: 1613693799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &838463945
 GameObject:
   m_ObjectHideFlags: 0
@@ -19941,6 +20523,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -20002,6 +20588,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851168256}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &856057510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 856057511}
+  - component: {fileID: 856057514}
+  - component: {fileID: 856057513}
+  - component: {fileID: 856057512}
+  m_Layer: 0
+  m_Name: NoteLineG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &856057511
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856057510}
+  m_LocalRotation: {x: 0.6085322, y: -0, z: -0, w: 0.7935292}
+  m_LocalPosition: {x: -1.32, y: -1.05, z: 4.03}
+  m_LocalScale: {x: 0.44873998, y: 16.084642, z: 0.44874004}
+  m_Children:
+  - {fileID: 1282680139}
+  - {fileID: 196097732}
+  m_Father: {fileID: 615373353}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 74.967, y: 0, z: 0}
+--- !u!64 &856057512
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856057510}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &856057513
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856057510}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: b0bc7c040a665f8499d2aeed17aaeda3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &856057514
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856057510}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &857683398
 GameObject:
   m_ObjectHideFlags: 0
@@ -20270,6 +20950,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -20394,6 +21078,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -20550,6 +21238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -20674,6 +21366,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -20798,6 +21494,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -20922,6 +21622,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -21046,6 +21750,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -21170,6 +21878,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -26076,6 +26788,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ad17e401204e4c0eace586c8b144f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Instructions: {fileID: 0}
   theMusic: {fileID: 163948064}
   distMusic: {fileID: 0}
   NoteMiss: {fileID: 1774699964}
@@ -26189,6 +26902,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 950155206}
   m_CullTransparentMesh: 0
+--- !u!1 &954435648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 954435649}
+  - component: {fileID: 954435652}
+  - component: {fileID: 954435651}
+  - component: {fileID: 954435650}
+  m_Layer: 0
+  m_Name: NotelineB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &954435649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954435648}
+  m_LocalRotation: {x: 0.6085322, y: -0, z: -0, w: 0.7935292}
+  m_LocalPosition: {x: -0.63, y: -1.05, z: 4.03}
+  m_LocalScale: {x: 0.44873998, y: 16.084642, z: 0.44874004}
+  m_Children:
+  - {fileID: 254233456}
+  - {fileID: 331280331}
+  m_Father: {fileID: 615373353}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 74.967, y: 0, z: 0}
+--- !u!64 &954435650
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954435648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &954435651
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954435648}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 80f214b75627e6d43be283c3411b67da, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &954435652
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 954435648}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &958954771
 GameObject:
   m_ObjectHideFlags: 0
@@ -26252,6 +27059,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -26313,6 +27124,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 958954771}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &962285054
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 570201235}
+    m_Modifications:
+    - target: {fileID: 2747701783472608574, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_Name
+      value: GlowParticleR
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &973982506
 GameObject:
   m_ObjectHideFlags: 0
@@ -26376,6 +27256,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -26500,6 +27384,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -26624,6 +27512,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -31508,6 +32400,105 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1001 &1013241960
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 954435649}
+    m_Modifications:
+    - target: {fileID: 2747701783472608574, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_Name
+      value: GlowParticleB
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.062361073
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.50824535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8953072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 527.94104
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.07058823
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.27350003
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.6509804
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &1018413859
 GameObject:
   m_ObjectHideFlags: 0
@@ -31571,6 +32562,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -31925,6 +32920,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eade522e4ae34d948bd1428628117bd8, type: 3}
+--- !u!4 &1051217384 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+    type: 3}
+  m_PrefabInstance: {fileID: 1242141252}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1051217385 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 7223780026303049424, guid: dadf4c077c664794db484294dd1d5c92,
+    type: 3}
+  m_PrefabInstance: {fileID: 1242141252}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1059299560
 GameObject:
   m_ObjectHideFlags: 0
@@ -32130,6 +33137,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -32254,6 +33265,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -32378,6 +33393,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -32502,6 +33521,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -32626,6 +33649,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -32750,6 +33777,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -32874,6 +33905,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -32998,6 +34033,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -33122,6 +34161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -33496,6 +34539,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -33620,6 +34667,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -33744,6 +34795,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -38593,6 +39648,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -38717,6 +39776,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -38841,6 +39904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -39044,6 +40111,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -39168,6 +40239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -39229,6 +40304,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223693838}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1242141252
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 570201235}
+    m_Modifications:
+    - target: {fileID: 1691065658864078289, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_Name
+      value: HitParticleR
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1296635619727076515, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dadf4c077c664794db484294dd1d5c92, type: 3}
 --- !u!1 &1248538068
 GameObject:
   m_ObjectHideFlags: 0
@@ -39292,6 +40436,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -39416,6 +40564,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -39540,6 +40692,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -39664,6 +40820,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -39725,6 +40885,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274127910}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1282680139 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+    type: 3}
+  m_PrefabInstance: {fileID: 2038208437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1294485219
 GameObject:
   m_ObjectHideFlags: 0
@@ -39788,6 +40954,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -39912,6 +41082,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -40036,6 +41210,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -40160,6 +41338,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -40284,6 +41466,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -40345,6 +41531,12 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396397276}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1429339410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+    type: 3}
+  m_PrefabInstance: {fileID: 962285054}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1430190386
 GameObject:
   m_ObjectHideFlags: 0
@@ -40533,6 +41725,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -40657,6 +41853,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -40781,6 +41981,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -40905,6 +42109,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -41029,6 +42237,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -41232,6 +42444,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -41356,6 +42572,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -41480,6 +42700,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -41604,6 +42828,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -41728,6 +42956,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -41852,6 +43084,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -41976,6 +43212,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -42100,6 +43340,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -42290,6 +43534,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -42414,6 +43662,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -42538,6 +43790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -42662,6 +43918,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -42786,6 +44046,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -42910,6 +44174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -43034,6 +44302,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -43095,6 +44367,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589524613}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1591443373 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2079249078}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1591443374 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 4115220682656368335, guid: 2970c889f08eb0b4c917c1c726912a90,
+    type: 3}
+  m_PrefabInstance: {fileID: 2079249078}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1602790849
 GameObject:
   m_ObjectHideFlags: 0
@@ -47888,6 +49172,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -47949,6 +49237,105 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1606867309}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1613693799
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1857782564}
+    m_Modifications:
+    - target: {fileID: 2747701783472608574, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_Name
+      value: GlowParticleY
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.017562496
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.50824535
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8953072
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 527.94116
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.648872
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.07058823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &1634664523
 GameObject:
   m_ObjectHideFlags: 0
@@ -48093,6 +49480,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -48217,6 +49608,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -48658,6 +50053,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -48782,6 +50181,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -48906,6 +50309,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -49030,6 +50437,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -49154,6 +50565,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -49278,6 +50693,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -49529,6 +50948,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -49653,6 +51076,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -49919,6 +51346,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -50043,6 +51474,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -50291,6 +51726,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1847388394}
   m_CullTransparentMesh: 0
+--- !u!1 &1857782563
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1857782564}
+  - component: {fileID: 1857782567}
+  - component: {fileID: 1857782566}
+  - component: {fileID: 1857782565}
+  m_Layer: 0
+  m_Name: NotelineY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857782564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782563}
+  m_LocalRotation: {x: 0.6085322, y: -0, z: -0, w: 0.7935292}
+  m_LocalPosition: {x: 0.07, y: -1.05, z: 4.03}
+  m_LocalScale: {x: 0.44873998, y: 16.084642, z: 0.44874004}
+  m_Children:
+  - {fileID: 834942485}
+  - {fileID: 1591443373}
+  m_Father: {fileID: 615373353}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 74.967, y: 0, z: 0}
+--- !u!64 &1857782565
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782563}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1857782566
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782563}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 09220c52f7ee7e1419cdaa53d1c9d38b, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1857782567
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782563}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1870260570
 GameObject:
   m_ObjectHideFlags: 0
@@ -55052,6 +56581,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -55176,6 +56709,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -55300,6 +56837,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -55424,6 +56965,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -55548,6 +57093,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -55672,6 +57221,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -55796,6 +57349,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -55920,6 +57477,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -56044,6 +57605,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -56105,6 +57670,105 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023437920}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2038208437
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 856057511}
+    m_Modifications:
+    - target: {fileID: 2747701783472608574, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_Name
+      value: GlowParticleG
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5082454
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.8953071
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090254476801406932, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 527.94086
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.23373622
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.07058823
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &2044156486
 GameObject:
   m_ObjectHideFlags: 0
@@ -56168,6 +57832,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -56292,6 +57960,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100
@@ -56716,6 +58388,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -56990,6 +58666,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 273
   keyToPress2: 119
@@ -57114,6 +58794,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 276
   keyToPress2: 97
@@ -57175,6 +58859,75 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073829680}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2079249078
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1857782564}
+    m_Modifications:
+    - target: {fileID: 5344622121475417550, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_Name
+      value: HitParticleY
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5522158580326417596, guid: 2970c889f08eb0b4c917c1c726912a90,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2970c889f08eb0b4c917c1c726912a90, type: 3}
 --- !u!1 &2104318451
 GameObject:
   m_ObjectHideFlags: 0
@@ -57238,6 +58991,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 274
   keyToPress2: 115
@@ -57362,6 +59119,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c415ad58796104815bde11d8e743bf71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  HitParticleR: {fileID: 1051217385}
+  HitParticleG: {fileID: 196097733}
+  HitParticleB: {fileID: 331280332}
+  HitParticleY: {fileID: 1591443374}
   canBePressed: 0
   keyToPress: 275
   keyToPress2: 100

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &560942872421900308
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9109153501100882308, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_Name
+      value: HitParticleB
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.07236107
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.50824535
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.7698896
+      objectReference: {fileID: 0}
+    - target: {fileID: 8710940935922931958, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 471.81232
+      objectReference: {fileID: 0}
+    - target: {fileID: 963185587281582725, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.2352941
+      objectReference: {fileID: 0}
+    - target: {fileID: 963185587281582725, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.35507545
+      objectReference: {fileID: 0}
+    - target: {fileID: 963185587281582725, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.8392157
+      objectReference: {fileID: 0}
+    - target: {fileID: 963185587281582725, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 963185587281582725, guid: 79344d34897a3d545a5e716f0ee48e56,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 79344d34897a3d545a5e716f0ee48e56, type: 3}

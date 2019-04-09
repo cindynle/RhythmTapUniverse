@@ -3,7 +3,15 @@ guid: c415ad58796104815bde11d8e743bf71
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - HitParticleR: {fileID: 7223780026303049424, guid: dadf4c077c664794db484294dd1d5c92,
+      type: 3}
+  - HitParticleG: {fileID: 2513172870917167696, guid: 1618bf2a72cea414fb1cfe5ed1c01e52,
+      type: 3}
+  - HitParticleB: {fileID: 762571384203213457, guid: 214167675eb2c3044b35e96323cc7234,
+      type: 3}
+  - HitParticleY: {fileID: 4115220682656368335, guid: 2970c889f08eb0b4c917c1c726912a90,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

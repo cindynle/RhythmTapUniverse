@@ -21,7 +21,7 @@ namespace MirzaBeig
         
         [RequireComponent(typeof(Light))]
 
-        public class AnimatedLight : MonoBehaviour
+        public class notAnimatedLight : MonoBehaviour
         {
             // =================================	
             // Nested classes and structures.

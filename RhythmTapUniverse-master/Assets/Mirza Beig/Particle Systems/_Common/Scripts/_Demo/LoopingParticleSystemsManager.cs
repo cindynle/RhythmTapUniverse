@@ -22,7 +22,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
 
-            public class LoopingParticleSystemsManager : ParticleManager
+            public class notLoopingParticleSystemsManager : ParticleManager
             {
                 // =================================	
                 // Nested classes and structures.

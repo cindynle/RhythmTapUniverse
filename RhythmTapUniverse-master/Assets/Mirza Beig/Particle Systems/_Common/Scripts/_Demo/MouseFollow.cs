@@ -22,7 +22,7 @@ namespace MirzaBeig
             // Classes.
             // =================================
             
-            public class MouseFollow : MonoBehaviour
+            public class notMouseFollow : MonoBehaviour
             {
                 // =================================	
                 // Nested classes and structures.

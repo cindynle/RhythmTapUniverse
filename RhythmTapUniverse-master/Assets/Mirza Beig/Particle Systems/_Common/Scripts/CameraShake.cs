@@ -12,12 +12,12 @@ namespace MirzaBeig
         namespace Demos
         {
 
-            public enum CameraShakeTarget
+            public enum notCameraShakeTarget
             {
                 Position,
                 Rotation
             }
-            public enum CameraShakeAmplitudeCurve
+            public enum notCameraShakeAmplitudeCurve
             {
                 Constant,
 
@@ -27,7 +27,7 @@ namespace MirzaBeig
                 FadeInOut50,
                 FadeInOut75,
             }
-            public enum CameraShakeAmplitudeOverDistanceCurve
+            public enum notCameraShakeAmplitudeOverDistanceCurve
             {
                 Constant,
                 
@@ -35,7 +35,7 @@ namespace MirzaBeig
                 LinearFadeOut
             }
 
-            public class CameraShake : MonoBehaviour
+            public class notCameraShake : MonoBehaviour
             {
                 [System.Serializable]
                 public class Shake
