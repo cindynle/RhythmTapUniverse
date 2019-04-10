@@ -4233,6 +4233,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5879764245263320942, guid: 4e819ed07e85345c99fe789413b796a4,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 5879764245263320942, guid: 4e819ed07e85345c99fe789413b796a4,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 300
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e819ed07e85345c99fe789413b796a4, type: 3}
 --- !u!4 &290691260 stripped
@@ -16710,22 +16720,22 @@ PrefabInstance:
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5583896
+      value: -0.66652066
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.27666947
+      value: 0.2327197
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.26026762
+      value: -0.30021146
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7375065
+      value: 0.6414553
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
@@ -16735,17 +16745,27 @@ PrefabInstance:
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -42.814003
+      value: -45.672
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 72.277
+      value: 89.739006
       objectReference: {fileID: 0}
     - target: {fileID: 8469227968554648317, guid: 97d31a42144e84bbd845b0f0e6c257f9,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -70.827
+      value: -95.647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469227968554648316, guid: 97d31a42144e84bbd845b0f0e6c257f9,
+        type: 3}
+      propertyPath: InitialModule.maxNumParticles
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469227968554648316, guid: 97d31a42144e84bbd845b0f0e6c257f9,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97d31a42144e84bbd845b0f0e6c257f9, type: 3}
