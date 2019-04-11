@@ -11,10 +11,15 @@ public class GameManager : MonoBehaviour
     public AudioSource distMusic;
     public AudioSource NoteMiss;
     public AudioSource Gomusic;
+    //public AudioSource Combo1;
+    //public AudioSource Combo2;
+    //public AudioSource Combo3;
     public GameObject winText;
     //public AudioSource winAudio;
     public GameObject missedNote;
     public GameObject failText;
+    public ParticleSystem Loops;
+    public ParticleSystem Glow;
     public bool startPlaying;
     static public bool Win = false;
     static public bool Hit = false;
@@ -116,6 +121,7 @@ public class GameManager : MonoBehaviour
         currentScore += scorePerNote * currentMulti;
 
             combo++;
+            Glow.Play();
             multiTracker++;
         if (currentMulti - 1 < multiThresholds.Length)
         {
@@ -124,13 +130,25 @@ public class GameManager : MonoBehaviour
             {
                 multiTracker = 0;
                 currentMulti++;
+                Loops.Play();
 
+                /*if(currentMulti == 2)
+                {
+                    Combo1.Play();
+                }else if(currentMulti == 3)
+                {
+                    Combo2.Play();
+                }else if(currentMulti == 4)
+                {
+                    Combo3.Play();
+                }*/
             }
         }
         currentScore += scorePerNote * currentMulti;
             scoreText.text = "Score: " + currentScore;
             comboText.text = "Combo: " + combo;
             multiText.text = "Multiplier: X" + currentMulti;
+        
 
         distMusic.volume = 0;
             
