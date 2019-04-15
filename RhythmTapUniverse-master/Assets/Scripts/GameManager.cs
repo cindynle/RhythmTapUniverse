@@ -93,24 +93,14 @@ public class GameManager : MonoBehaviour
             startPlaying = false;
         }
 
-       if ((failTracker < 10) && (timer >= 45))
-        {
-            Win = true;
-            winText.SetActive(true);
-            //winAudio.Play();
-            theMusic.Stop();
-            distMusic.Stop();
+       
         }
-        if (startPlaying)
-        {
-            timer += Time.deltaTime;
-        }
-
+        
         
 
       
 
-    }
+
     public void NoteHit()
     {
         Debug.Log("Hit On Time");
