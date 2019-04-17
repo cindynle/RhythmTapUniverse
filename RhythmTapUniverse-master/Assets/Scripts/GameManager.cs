@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
             distMusic.Play();
             }
         } else
-        { if (!theMusic.isPlaying && !winText.activeInHierarchy)
+        { if (!theMusic.isPlaying && !winText.activeInHierarchy && Time.timeScale != 0)
             {
                 winText.SetActive(true);
             }
