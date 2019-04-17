@@ -66,15 +66,15 @@ public class GameManager : MonoBehaviour
             theMusic.Play();
             distMusic.Play();
             }
-        }
+        } else
+        { if (!theMusic.isPlaying && !winText.activeInHierarchy)
+            {
+                winText.SetActive(true);
+            }
 
-       /*if (failTracker == 0)
-        {
-            theBS.failed = true;
+                    }
 
-            StartCoroutine(coroutine);
-         
-        }*/
+      
 
         if (failTracker >= 10)
         {
