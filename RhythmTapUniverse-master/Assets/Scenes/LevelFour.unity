@@ -2021,6 +2021,16 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.6509804
       objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!4 &166941008 stripped
@@ -8733,6 +8743,16 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.07058823
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
@@ -16428,6 +16448,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!4 &702653489 stripped
@@ -18981,6 +19011,16 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.07058823
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
@@ -32636,7 +32676,7 @@ MonoBehaviour:
 
     to the last level
 
-    the jungle level
+    the desert level
 
     good luck
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1376,6 +1376,16 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.6509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
@@ -9465,6 +9475,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1172710934}
     m_Modifications:
+    - target: {fileID: 7223780026303049424, guid: dadf4c077c664794db484294dd1d5c92,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1691065658864078289, guid: dadf4c077c664794db484294dd1d5c92,
         type: 3}
       propertyPath: m_Name
@@ -13170,6 +13185,16 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.07058823
       objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &1125464931
@@ -16299,6 +16324,16 @@ PrefabInstance:
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.07058823
       objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
 --- !u!1 &1432007108
@@ -18270,6 +18305,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 822297368085812727, guid: 9af059f5293200740b41ba7cea6cd504,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9af059f5293200740b41ba7cea6cd504, type: 3}
