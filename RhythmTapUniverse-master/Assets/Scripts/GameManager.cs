@@ -39,6 +39,18 @@ public class GameManager : MonoBehaviour
     public float timer;
     private IEnumerator coroutine;
 
+    public GameObject indicator1;
+    public GameObject indicator2;
+    public GameObject indicator3;
+    public GameObject indicator4;
+    public GameObject indicator5;
+    public GameObject indicator6;
+    public GameObject indicator7;
+    public GameObject indicator8;
+    public GameObject indicator9;
+    public GameObject indicator10;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -49,7 +61,8 @@ public class GameManager : MonoBehaviour
        scoreText.text = "Score: 0";
 
         currentMulti = 1;
-        multiText.text = "Multiplier: X" + currentMulti;
+        multiText.text = "Multi: X" + currentMulti;
+        comboText.text = "Combo: 0";
         failTracker = 0;
         coroutine = waitTwo();
 
@@ -93,15 +106,55 @@ public class GameManager : MonoBehaviour
             startPlaying = false;
         }
 
+        if (failTracker == 1) { 
+            indicator1.gameObject.SetActive(false);
+
+    }
+     if (failTracker == 2) {
+            indicator2.gameObject.SetActive(false);
        
         }
-        
-        
+ if (failTracker == 3) {
+            indicator3.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 4){
+            indicator4.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 5){
+            indicator5.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 6){
+            indicator6.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 7){
+            indicator7.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 8){
+            indicator8.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 9){
+            indicator9.gameObject.SetActive(false);
+       
+        }
+     if (failTracker == 10){
+            indicator10.gameObject.SetActive(false);
+       
+        }
+     
+        }
 
-      
 
 
-    public void NoteHit()
+
+
+
+public void NoteHit()
     {
         Debug.Log("Hit On Time");
         missedNote.SetActive(false);
@@ -137,7 +190,7 @@ public class GameManager : MonoBehaviour
         currentScore += scorePerNote * currentMulti;
             scoreText.text = "Score: " + currentScore;
             comboText.text = "Combo: " + combo;
-            multiText.text = "Multiplier: X" + currentMulti;
+            multiText.text = "Multi: X" + currentMulti;
         
 
         distMusic.volume = 0;
