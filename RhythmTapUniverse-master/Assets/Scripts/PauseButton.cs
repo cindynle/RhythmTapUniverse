@@ -9,6 +9,8 @@ public class PauseButton : MonoBehaviour
     public AudioSource audio2;
     public AudioSource audio3;
     public GameObject darkscreen;
+    public Button Pause;
+    public GameObject Popup;
 
     static public bool paused;
     static public bool GO = false;
@@ -16,14 +18,16 @@ public class PauseButton : MonoBehaviour
     void Start()
     {
         paused = false;
-    
 
 
     }
 
     void Update ()
     {
-       
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            Pause.onClick.Invoke();
+        }
     }
     public void TogglePause()
     {
@@ -31,20 +35,25 @@ public class PauseButton : MonoBehaviour
     
         if (paused && !GO && !GameManager.Win)
         {
-            Time.timeScale = 0;
-            audio.Pause();
-            audio2.Pause();
-            //audio3.Pause();
-            darkscreen.SetActive(true);
-
-
+            if (Popup.activeInHierarchy == false)
+            {
+                Time.timeScale = 0;
+                audio.Pause();
+                audio2.Pause();
+                //audio3.Pause();
+                darkscreen.SetActive(true);
+            }
         }
         else if (!paused && !GO && !GameManager.Win)
         {
-            Time.timeScale = 1;
-            audio.Play();
-            audio2.Play();
-            //audio3.Play();
+            if (Popup.activeInHierarchy == false)
+            {
+                Time.timeScale = 1;
+                audio.Play();
+                audio2.Play();
+                //audio3.Play();
+            }
+
             darkscreen.SetActive(false);
         }
     }

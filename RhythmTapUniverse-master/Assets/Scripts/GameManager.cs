@@ -37,6 +37,7 @@ public class GameManager : MonoBehaviour
     public Text comboText;
     public Text multiText;
     public float timer;
+    public GameObject Popup;
     private IEnumerator coroutine;
 
     public GameObject indicator1;
@@ -73,14 +74,14 @@ public class GameManager : MonoBehaviour
     {
         if(!startPlaying)
         {
-            if (Input.anyKeyDown) { 
+            if (Popup.activeInHierarchy == false) { 
             startPlaying = true;
             theBS.hasStarted = true;
             theMusic.Play();
             distMusic.Play();
             }
         } else
-        { if (!theMusic.isPlaying && !winText.activeInHierarchy && Time.timeScale != 0)
+        { if (!theMusic.isPlaying && !winText.activeInHierarchy && Time.timeScale != 0 && Time.time >= 90)
             {
                 winText.SetActive(true);
             }
