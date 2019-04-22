@@ -5069,7 +5069,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -14914,7 +14914,6 @@ MonoBehaviour:
   audio3: {fileID: 150772297}
   darkscreen: {fileID: 1563337308}
   Pause: {fileID: 770487902}
-  PauseG: {fileID: 0}
   Popup: {fileID: 747276110}
 --- !u!114 &770487901
 MonoBehaviour:
@@ -14941,7 +14940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
