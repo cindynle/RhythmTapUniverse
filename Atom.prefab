@@ -118,10 +118,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4349212115383417940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80b9a2e317bce67449919cbdc8e0d146, type: 3}
+  m_Script: {fileID: 11500000, guid: 256e43dbe83b4fb419c6ade2ac39c8a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attractedTo: {fileID: 2372454794669174076, guid: 409279a907803f24a96af19ade257a3a,
+  _attractedTo: {fileID: 2372454794669174076, guid: d62a0ac27c7e29c40aa253d959bfbae7,
     type: 3}
   _strengthOfAttraction: 100
   _maxMagnitude: 100

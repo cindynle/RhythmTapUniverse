@@ -213,7 +213,7 @@ public void NoteHit()
         failTracker++;
         distMusic.volume = 0.75f;
         comboText.text = "Combo: " + combo;
-        multiText.text = "Multiplier: X" + currentMulti;
+        multiText.text = "Multi: X" + currentMulti;
 
 
     }
